@@ -1,0 +1,17 @@
+@import '../../../assets/scss/variable';
+
+nav {
+    display: inline-block;
+    width: 150px;
+    ul {
+        margin: 0 2%;
+        padding: 0;
+        list-style: none;
+        background: $primary-color;
+        li {
+            border: 1px solid $primary-color_1;
+            padding: 6%;
+            border-left: 6px solid $primary-color_2;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/scss/variable';
+@import 'assets/scss/font';
+@import 'assets/scss/card';
+@import 'assets/scss/modal';
+@import 'assets/scss/form';
+
+/**
+    user page css content
+*/
+
+body {
+    background-color: $secondary-color;
+    font-family: $font;
+    color: $primary-color;
+    margin: 0;
+}
+
+.body-content {
+    padding: 0% 10%;
+    display: inline-block;
+}
+
+.clear{
+    clear: both;
+}
+
+.body-container {
+    background-color: #fff;
+    padding: 1% 2% 2% 1%;
+    /* color: #fff; */
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+}
+
+button{
+    border: 1px solid $primary-color_1;
+    background: $primary-color;
+    font-family: $font;
+    font-size: 20px;
+    color: $font-color;
+    padding: 3px 5px;
+}
+
